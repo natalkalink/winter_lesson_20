@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title> Lesson 20</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header"></header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__brands brands">
+               <fieldset class="brands__fieldset">
+                  <legend class="brands__legend">chose your brand</legend>
+                  <ul class="brands__list">
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/01.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/02.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/03.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/04.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/05.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/06.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/07.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                     <li class="brands__item">
+                        <a href="#" class="brands__link">
+                           <img src="img/logo/01.svg" alt="logo-brand">
+                        </a>
+                     </li>
+                  </ul>
+               </fieldset>
+            </div>
+            <div class="main__banner banner">
+               <div class="banner__list">
+                  <div class="banner__item">
+                     <div class="banner__image">
+                        <img src="img/image/04.jpg" alt="image">
+                     </div>
+                     <div class="banner__content">
+                        <h3 class="banner__title title title--semibold">choosе<br>
+                           your look</h3>
+                        <div class="banner__subtitle subtitle subtitle--regular">See our clothing colection</div>
+                        <div class="banner__button button"><a href="#">see offers</a></div>
+                     </div>
+                  </div>
+                  <div class="banner__item">
+                     <div class="banner__image">
+                        <img src="img/image/02.jpg" alt="image">
+                     </div>
+                     <div class="banner__content">
+                        <h3 class="banner__title title title--big">Up to<br>40% off</h3>
+                        <div class="banner__subtitle subtitle subtitle--big">Special offers and great deals</div>
+                        <div class="banner__button button"><a href="#">see offers</a></div>
+                     </div>
+                  </div>
+                  <div class="banner__item">
+                     <div class="banner__image">
+                        <img src="img/image/05.jpg" alt="image">
+                     </div>
+                     <div class="banner__content">
+                        <h3 class="banner__title title title--semibold">brand new style</h3>
+                        <div class="banner__subtitle subtitle subtitle--regular">Popular clothing brands</div>
+                        <div class="banner__button button"><a href="#">shop now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__catalog catalog">
+               <div class="catalog__body">
+                  <div class="catalog__sidebar">
+                     <div class="catalog__title title title--regular">Shop Some Wear:</div>
+                     <form class="catalog__form form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                        <div class="form__item">
+                           <input type="checkbox" name="best-sellers" id="best-sellers" class="form__input">
+                           <label for="best-sellers" class="form__label label">BEST SELLERS</label>
+                        </div>
+                        <div class="form__item">
+                           <input type="checkbox" name="arivals" id="arivals" class="form__input">
+                           <label for="arivals" class="form__label label">NEW ARIVALS</label>
+                        </div>
+                        <div class="form__item">
+                           <input type="checkbox" name="women" id="women" class="form__input">
+                           <label for="women" class="form__label label">TOP WOMEN</label>
+                        </div>
+                        <div class="form__item">
+                           <input type="checkbox" name="summer" id="summer" class="form__input">
+                           <label for="summer" class="form__label label">Collection: Summer</label>
+                        </div>
+                        <div class="form__item">
+                           <input type="checkbox" name="spring" id="spring" class="form__input">
+                           <label for="spring" class="form__label label">Collection: spring</label>
+                        </div>
+                        <div class="form__item">
+                           <input type="checkbox" name="trending" id="trending" class="form__input" value="trending">
+                           <label for="trending" class="form__label label">TREnding</label>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="catalog__list">
+                     <div class="catalog__items">
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/01.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">139,00 EUR</div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/02.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">235,00 EUR</div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/03.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">90,00 EUR</div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__label"><span>-30%</span></div>
+                           <div class="catalog__image">
+                              <img src="img/dress/01.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__activ">
+                              <div class="catalog__price price price--action">139,00 EUR</div>
+                              <div class="catalog__price price price--next">119,00 EUR</div>
+                           </div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/04.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">139,00 EUR</div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__label"><span>-30%</span></div>
+                           <div class="catalog__image">
+                              <img src="img/dress/01.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__activ">
+                              <div class="catalog__price price price--action">139,00 EUR</div>
+                              <div class="catalog__price price price--next">119,00 EUR</div>
+                           </div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/02.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">139,00 EUR</div>
+                        </a>
+                        <a href="#" class="catalog__item">
+                           <div class="catalog__image">
+                              <img src="img/dress/06.jpg" alt="drees">
+                           </div>
+                           <div class="catalog__title title title--grey">TOP women</div>
+                           <div class="catalog__description">Angels malu zip jeans slim black used</div>
+                           <div class="catalog__price price price--top">139,00 EUR</div>
+                        </a>
+                     </div>
+                     <div class="catalog__wrapper">
+                        <div class="catalog__button button button--grey"><a href="#">Load more</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__shopping shopping">
+               <a href="#" class="shopping__image">
+                  <img src="img/image/01.jpg" alt="image">
+               </a>
+               <div class="shopping__item">
+                  <div class="shopping__body">
+                     <div class="shopping__title title title--medium">shopping without limits.</div>
+                     <div class="shopping__description description">
+                        You can choose the best option for you, and it does not matter whether you are in Prague or San
+                        Francisco. We will deliver your purchase anywhere!
+                     </div>
+                     <div class="shopping__button button"><a href="#">shop now</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__featured featured">
+               <div class="featured__top">
+                  <div class="featured__title title title--regular">Featured Items</div>
+                  <div class="featured__arrows">
+                     <div class="featured__arrow-left">
+                        <img src="img/icons/arrow-left.svg" alt="arrow-left">
+                     </div>
+                     <div class="featured__arrow-right">
+                        <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                     </div>
+                  </div>
+               </div>
+               <div class="featured__list list">
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/07.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/02.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/05.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/01.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/06.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+
+               </div>
+            </div>
+            <div class="main__popular popular">
+               <div class="popular__top">
+                  <div class="popular__title title title--regular">Most Popular</div>
+                  <div class="popular__arrows">
+                     <div class="popular__arrow-left">
+                        <img src="img/icons/arrow-left.svg" alt="arrow-left">
+                     </div>
+                     <div class="popular__arrow-right">
+                        <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                     </div>
+                  </div>
+               </div>
+               <div class="popular__list list">
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/04.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/07.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/06.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/05.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+                  <div class="list__item">
+                     <a href="#" class="list__image">
+                        <img src="img/dress/02.jpg" alt="drees">
+                     </a>
+                     <div class="list__title title title--grey">TOP women</div>
+                     <div class="list__description">Angels malu zip jeans slim black used</div>
+                     <div class="list__price price">139,00 EUR</div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__explore explore">
+               <div class="explore__image">
+                  <img src="img/image/03.jpg" alt="image">
+               </div>
+               <div class="explore__body">
+                  <div class="explore__title title title--medium">EXPLORE THE BEST OF YOU.</div>
+                  <div class="explore__description description">
+                     You can choose the best option for you, and it does not matter whether you are in Prague or San
+                     Francisco.
+                  </div>
+                  <div class="explore__button button"><a href="#">shop now</a></div>
+               </div>
+            </div>
+            <div class="main__blog blog">
+               <div class="blog__title title title--regular">Blog</div>
+               <div class="blog__items">
+                  <div class="blog__item item-blog">
+                     <div class="item-blog__title title title--light"><a href="#">Article</a></div>
+                     <div class="item-blog__info"><a href="#">Exactly What To Wear To Every Type Of Wedding This
+                           Summer</a></div>
+                     <div class="item-blog__text text">A large part of the business here is building up the
+                        "experience".
+                        Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf
+                        tournaments, tennis matches and sailing competitions. All of this builds up your perception of
+                        the brand - and additionally, it costs money.</div>
+                     <div class="item-blog__date date"><a href="#">21 January 2018 by guido</a></div>
+                  </div>
+                  <div class="blog__item item-blog">
+                     <div class="item-blog__title title title--light"><a href="#">TIPS</a></div>
+                     <div class="item-blog__info"><a href="#">Exactly What To Wear To Every Type Of Wedding This
+                           Summer</a></div>
+                     <div class="item-blog__text text">When selling 70% fewer shirts, however, there are fewer shirts on
+                        the market, making it more exclusive, and therefore worth the money, for those to whom it
+                        matters. </div>
+                     <div class="item-blog__date date"><a href="#">21 January 2018 by guido</a></div>
+                  </div>
+                  <div class="blog__item item-blog">
+                     <div class="item-blog__title title title--light"><a href="#">TIPS</a></div>
+                     <div class="item-blog__info"><a href="#">Exactly What To Wear To Every Type Of Wedding This
+                           Summer</a></div>
+                     <div class="item-blog__text text">A large part of the business here is building up the
+                        "experience".
+                        Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf
+                        tournaments, tennis matches and sailing competitions. All of this builds up your perception of
+                        the brand - and additionally, it costs money.
+                     </div>
+                     <div class="item-blog__date date"><a href="#">21 January 2018 by guido</a></div>
+                  </div>
+                  <div class="blog__item item-blog">
+                     <div class="item-blog__title title title--light"><a href="#">Article</a></div>
+                     <div class="item-blog__info"><a href="#">Exactly What To Wear To Every Type Of Wedding This
+                           Summer</a></div>
+                     <div class="item-blog__text text">When selling 70% fewer shirts, however, there are fewer shirts on
+                        the
+                        market, making it more exclusive, and therefore worth the money, for those to whom it matters.
+                     </div>
+                     <div class="item-blog__date date"><a href="#">21 January 2018 by guido</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+
+</html>
